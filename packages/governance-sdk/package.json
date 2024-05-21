@@ -1,9 +1,9 @@
 {
-  "name": "@dedmonkes/spl-governance",
+  "name": "@phaselabscrypto/spl-governance",
   "version": "0.3.1",
   "description": "SPL Governance Client API",
   "author": "Solana Maintainers <maintainers@solana.foundation>",
-  "homepage": "https://github.com/solana-labs/dedmonkes/blob/main/packages/governance-sdk/README.md",
+  "homepage": "https://github.com/solana-labs/phaselabscrypto/blob/main/packages/governance-sdk/README.md",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -11,14 +11,14 @@
     "lib": "lib"
   },
   "publishConfig": {
-    "@dedmonkes:registry": "https://npm.pkg.github.com"
+    "@phaselabscrypto:registry": "https://npm.pkg.github.com"
   },
   "files": [
     "lib"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dedmonkes/oyster.git"
+    "url": "git+https://github.com/phaselabscrypto/oyster.git"
   },
   "sideEffects": false,
   "scripts": {
@@ -28,7 +28,7 @@
     "watch": "tsc --watch"
   },
   "bugs": {
-    "url": "https://github.com/dedmonkes/oyster/issues"
+    "url": "https://github.com/phaselabscrypto/oyster/issues"
   },
   "dependencies": {
     "@solana/web3.js": "^1.22.0",
